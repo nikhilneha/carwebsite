@@ -95,7 +95,7 @@
     height: 750px;
     width: 1345px;
     float: left;
-    background-image: url(images/bmw.jpg);
+    background-image: url(/css/bmw.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -306,6 +306,9 @@
 .buy img{
     width: 265px;
 }
+.buy img:hover{
+    zoom: 130%;
+}
 .buy h4{
     margin: 5px 30px;
     text-transform: capitalize;
@@ -346,6 +349,9 @@
 .new img{
     width: 331px;
     height: 200px;
+}
+.new img:hover{
+    zoom: 130%;
 }
 .new h4{
     margin: 5px 30px;
