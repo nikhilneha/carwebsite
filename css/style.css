@@ -95,7 +95,7 @@
     height: 750px;
     width: 1345px;
     float: left;
-    background-image: url(/css/bmw.jpg);
+    background-image: url(../css/bmw.jpg);
     background-position: center;
     background-size: cover;
 }
