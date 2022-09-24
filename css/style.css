@@ -63,7 +63,7 @@
 }
 .menu ul li{
     float: left;
-    margin: 0px 20px;
+    margin: 3px 20px;
     font-size: 16px;
     position: relative;
     background-color: white;
@@ -221,6 +221,7 @@
 }
 .gallery{
     width: 100%;
+    position: relative;
 }
 .gallery .harrier{
     float: left;
@@ -305,6 +306,7 @@
 }
 .buy img{
     width: 265px;
+    height: 200px;
 }
 .buy img:hover{
     zoom: 130%;

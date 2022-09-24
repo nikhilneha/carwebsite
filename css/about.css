@@ -1,0 +1,16 @@
+table{
+    margin: auto;
+    height: 200px;
+    width: 400px;
+    border-collapse: collapse;
+}
+tr{
+    background-color: brown;
+    color: white;
+    height: 40px;
+    text-align: center;
+}
+th{
+    font-size: 30px;
+    color: yellow;
+}

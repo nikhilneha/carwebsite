@@ -111,8 +111,28 @@
      <div class="container">
         <form action="" class="load">
            <h3> Find Your Right car</h3> <br>
-            <input type="text" class="new"  placeholder="New car">
-            <input type="text" class="used" placeholder="Used Car"><br><br>
+            <input type="text" class="new"  placeholder="New car" list="newcar">
+            <datalist id="newcar">
+                <option value="Maruti Suzuki"></option>
+                <option value="Tata"></option>
+                <option value="Renault"></option>
+                <option value="Hyundai"></option>
+                <option value="Honda"></option>
+                <option value="MG"></option>
+                <option value="KIA"></option>
+                <option value="Mahindra"></option>
+            </datalist>
+            <input type="text" class="used" placeholder="Used Car" list="usedcar">
+            <datalist id="usedcar">
+                <option value="Maruti Suzuki"></option>
+                <option value="Tata"></option>
+                <option value="Renault"></option>
+                <option value="Hyundai"></option>
+                <option value="Honda"></option>
+                <option value="MG"></option>
+                <option value="KIA"></option>
+                <option value="Mahindra"></option>
+            </datalist><br><br>
             <input type="radio" class="budget"><b>By Budget</b>
             <input type="radio" class="brand"><b>By Brand</b> <br><br>
             <select name="" id="" class="first">
@@ -161,7 +181,8 @@
             </tr>
         </tbody>
             </table>
-            <button id="book">Book Online</button>
+            <a href="about.html">
+            <button id="book">Book Online</button></a>
         </div>
      </div>
      <!--container end-->
